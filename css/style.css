@@ -49,40 +49,52 @@
 /* Content */
 .content-block-top {
     background-color: lightgrey;
-    padding: 20px;
-    padding-top: 60px;
-    padding-bottom: 100px;
+    padding: 60px 45px 100px 45px;
     margin-bottom: -100px;
 }
 
+.content-block-bottom {
+    background-color: lightgrey;
+    padding: 60px 45px 100px 45px;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* Afbeeldingen */
-/* .img-wrapper { */
-    /* overflow: hidden; */
-    /* position: relative; */
-/* } */
+html .padding-img {
+    padding: 5px;
+}
 
-/* .img-wrapper-inner { */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* position: absolute; */
-    /* z-index: 1; */
-    /* top: 100%; */
-    /* padding: 15px 20px; */
-    /* background: rgba(255,50,50,0.5); */
-    /* color: white; */
-/* } */
+.img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
 
-/* .description { */
-    /* text-align: center; */
-    /* padding: 15% 0; */
-/* } */
+.img-wrapper-inner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    padding: 15px 20px;
+    background: rgba(255,50,50,0.5);
+    color: white;
+}
 
-/* .img-wrapper:hover .img-wrapper-inner { */
-    /* top: 0; */
-/* } */
+.description {
+    text-align: center;
+    padding: 15% 0;
+}
+
+.img-wrapper:hover .img-wrapper-inner {
+    top: 0;
+}
 
 /* Bootstrap adjustments */
-/* .row-small { */
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
-/* } */
+html .row-small {
+    margin-left: 20px;
+    margin-right: 20px;
+}

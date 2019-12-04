@@ -9,12 +9,13 @@
     color: white;
 }
 
-/* Logo */
-.top-menu {
+/* Top bar */
+.top-bar {
     z-index: 1;
     height: 78px;
 }
 
+/* Logo */
 .logo-container {
     margin-left: 40px;
     /* height: 80px; */
@@ -26,6 +27,15 @@
 }
 
 /* Menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items {
+    margin-top: auto;
+}
+
 .menu-item {
     float: right;
     padding: 5px;

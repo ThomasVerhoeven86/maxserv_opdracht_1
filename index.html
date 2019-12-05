@@ -25,7 +25,7 @@
                         <img src="images/logo1.jpg">
                     </div>
                 </div>
-                <div class="col-9 menu">
+                <div class="col-9 menu d-none d-sm-block">
                     <!-- Menu -->
                     <div class="menu-items">
                         <div class="menu-item">Contact</div>
@@ -33,6 +33,9 @@
                         <div class="menu-item">Over ons</div>
                         <div class="menu-item menu-active">Homepage</div>
                     </div>
+                </div>
+                <div class="col-9 small-menu d-block d-sm-none">
+                    <i class="fas fa-bars"></i>
                 </div>
             </div>
             <div class="row">
@@ -45,7 +48,7 @@
                 </div>
             </div>
             <div class="row row-small">
-                <div class="col-6 padding-img">
+                <div class="col-md-6 padding-img">
                     <!-- Afbeelding 1 -->
                     <div class="img-wrapper">
                         <div><img src="images/image01.jpg" class="img-fluid"></div>
@@ -56,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 padding-img">
+                <div class="col-md-6 padding-img">
                     <!-- Afbeelding 2 -->
                     <div class="img-wrapper">
                         <div><img src="images/image02.jpg" class="img-fluid"></div>
@@ -69,7 +72,7 @@
                 </div>
             </div>
             <div class="row row-small">
-                <div class="col-6 padding-img">
+                <div class="col-md-6 padding-img">
                     <!-- Afbeelding 3 -->
                     <div class="img-wrapper">
                         <div><img src="images/image03.jpg" class="img-fluid"></div>
@@ -80,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 padding-img">
+                <div class="col-md-6 padding-img">
                     <!-- Afbeelding 4 -->
                     <div class="img-wrapper">
                         <div><img src="images/image04.jpg" class="img-fluid"></div>
@@ -93,7 +96,7 @@
                 </div>
             </div>
             <div class="row row-small">
-                <div class="col-6 padding-img">
+                <div class="col-md-6 padding-img">
                     <!-- Afbeelding 5 -->
                     <div class="img-wrapper">
                         <div><img src="images/image05.jpg" class="img-fluid"></div>
@@ -104,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 padding-img">
+                <div class="col-md-6 padding-img">
                     <!-- Afbeelding 6 -->
                     <div class="img-wrapper">
                         <div><img src="images/image06.jpg" class="img-fluid"></div>
@@ -119,6 +122,9 @@
             <div class="row row-small">
                 <div class="col-12">
                     <!-- Meer projecten knop -->
+                    <div class="see-more">
+                        <span class="see-more-button">MEER PROJECTEN TONEN</span>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -131,14 +137,14 @@
                 </div>
             </div>
             <div class="row row-small">
-                <div class="col-6">
+                <div class="col-md-6">
                     <!-- Het WAUW effect -->
                     <div class="padding">
                         <h2>Het WAUW effect</h2>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio</p>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6">
                     <!-- Snelle en kwaliteitsvolle projecten -->
                     <div class="padding">
                         <h2>Snelle en kwaliteitsvolle projecten</h2>
@@ -149,45 +155,53 @@
                     </div>
                 </div>
             </div>
-            <div class="row row-small">
-                <div class="col-4">
-                    <!-- Inspiratie -->
-                    <div class="footer-menu"><b>Inspiratie</b></div>
-                    <div class="footer-menu">Medium</div>
-                    <div class="footer-menu">Designerdepot</div>
-                    <div class="footer-menu">Portfolio</div>
-                </div>
-                <div class="col-4">
-                    <!-- Service -->
-                    <div class="footer-menu"><b>Service</b></div>
-                    <div class="footer-menu">Over ons</div>
-                    <div class="footer-menu">Contact</div>
-                    <div class="footer-menu">Servicepunten</div>
-                </div>
-                <div class="col-4">
-                    <!-- Informatie -->
-                    <div class="footer-menu"><b>Informatie</b></div>
-                    <div class="footer-menu">GitHub</div>
-                    <div class="footer-menu">Atlassian</div>
-                    <div class="footer-menu">Stack</div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-block">
+                        <div class="footer-menu">
+                            <div class="footer-menu-column">
+                                <div><b>Inspiratie</b></div>
+                                <div>Medium</div>
+                                <div>Designerdepot</div>
+                                <div>Portfolio</div>
+                            </div>
+                            <div class="footer-menu-column">
+                                <div><b>Service</b></div>
+                                <div>Over ons</div>
+                                <div>Contact</div>
+                                <div>Servicepunten</div>
+                            </div>
+                            <div class="footer-menu-column">
+                                <div><b>Informatie</b></div>
+                                <div>GitHub</div>
+                                <div>Atlassian</div>
+                                <div>Stack</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row row-small">
                 <div class="col-12">
-                    <!-- Copyright, logo en rechten -->
-                    <div>Copyright &copy; 2018</div>
-                    <div>
-                        <!-- Logo -->
+                    <div class="footer-container">
+                        <!-- Copyright, logo en rechten -->
+                        <div class="footer-item"><span class="d-none d-sm-block">Copyright </span>&copy; 2018</div>
+                        <div class="footer-item">
+                            <!-- Logo -->
+                            <div class="logo-container-bottom">
+                                <img src="images/logo1.jpg">
+                            </div>
+                        </div>
+                        <div class="footer-item">Alle rechten voorbehouden</div>
                     </div>
-                    <div>Alle rechten voorbehouden</div>
                 </div>
             </div>
             <div class="row row-small">
                 <div class="col-12">
                     <!-- Footer -->
-                    <div class="footer">Voorwaarden</div>
-                    <div class="footer">Sitemap</div>
-                    <div class="footer">Afmelden</div>
+                    <div class="secondary-footer-item"><a href="maxserv.com">Voorwaarden</a></div>
+                    <div class="secondary-footer-item"><a href="maxserv.com">Sitemap</a></div>
+                    <div class="secondary-footer-item"><a href="maxserv.com">Afmelden</a></div>
                 </div>
             </div>
         </div>

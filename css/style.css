@@ -1,4 +1,11 @@
 
+/* Layout */
+
+html .row-small {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* Taalinstellingen */
 .lang-item {
     float: right;
@@ -46,6 +53,15 @@
     border-bottom: 2px solid blue;
 }
 
+.small-menu {
+    font-size: 50px;
+}
+
+.small-menu i {
+    float: right;
+    margin: 15px 0;
+}
+
 /* Content */
 .content-block-top {
     background-color: lightgrey;
@@ -53,7 +69,7 @@
     margin-bottom: -100px;
 }
 
-.content-block-bottom {
+.content-block-bottom, .footer-block {
     background-color: lightgrey;
     padding: 60px 45px 100px 45px;
 }
@@ -61,6 +77,19 @@
 .padding {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.see-more {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.see-more-button {
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
 }
 
 /* Afbeeldingen */
@@ -93,8 +122,54 @@ html .padding-img {
     top: 0;
 }
 
-/* Bootstrap adjustments */
-html .row-small {
-    margin-left: 20px;
-    margin-right: 20px;
+/* Footer */
+
+.footer-block {
+    background-color: lightgrey;
+    padding: 45px 45px 90px 45px;
+}
+
+.footer-menu, .footer-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer-menu-column {
+    margin: 15px;
+}
+
+@media (min-width: 767px) {
+    
+}
+
+@media (min-width: 500px) {
+    
+    .footer-block {
+        padding: 45px 45px 215px 45px;
+    }
+    
+    .footer-menu-column {
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .footer-block {
+        padding: 45px 45px 250px 45px;
+    }
+    
+    .footer-menu-column {
+        margin: 50px;
+    }
+    
+}
+
+.footer-item {
+    float: left;
+    margin: 5px;
+}
+
+.logo-container-bottom > img {
+    margin-top: -75px;
 }

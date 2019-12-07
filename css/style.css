@@ -4,9 +4,14 @@
 html .row-small {
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-a:link, a:visited, a:hover, a:active {
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+html a:link, html a:visited, html a:hover, html a:active {
   color: initial;
 }
 
@@ -33,12 +38,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .logo-container > img {
-    border: 1px solid #eeeeee;
+    border: 1px solid #e4e4e4;
     margin-bottom: -80px;
 }
 
 /* Menu */
 .menu {
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -78,13 +84,13 @@ a:link, a:visited, a:hover, a:active {
 
 /* Content */
 .content-block-top {
-    background-color: #eeeeee;
+    background-color: #e4e4e4;
     padding: 60px 45px 100px 45px;
     margin-bottom: -100px;
 }
 
 .content-block-bottom, .footer-block {
-    background-color: #eeeeee;
+    background-color: #e4e4e4;
     padding: 60px 45px 100px 45px;
 }
 
@@ -99,6 +105,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .see-more-button {
+    padding: 5px 15px;
     background-color: #4bb2e7;
     color: white;
     box-shadow: 2px 2px 0px 0px rgba(170,170,170,0.75);
@@ -123,13 +130,13 @@ html .padding-img {
     z-index: 1;
     top: 100%;
     padding: 15px 20px;
-    background: rgba(255,50,50,0.5);
+    background: rgba(255,50,50,0.8);
     color: white;
 }
 
 .description {
     text-align: center;
-    padding: 15% 0;
+    padding: 22% 0;
 }
 
 .img-wrapper:hover .img-wrapper-inner {
@@ -139,7 +146,7 @@ html .padding-img {
 /* Footer */
 
 .footer-block {
-    background-color: #eeeeee;
+    background-color: #e4e4e4;
     padding: 45px 45px 90px 45px;
 }
 

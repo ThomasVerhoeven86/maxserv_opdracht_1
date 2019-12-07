@@ -6,13 +6,17 @@ html .row-small {
     margin-right: 20px;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: initial;
+}
+
 /* Taalinstellingen */
 .lang-item {
     float: right;
     padding: 5px;
 }
 .lang-active {
-    background-color: blue;
+    background-color: #4bb2e7;
     color: white;
 }
 
@@ -29,7 +33,7 @@ html .row-small {
 }
 
 .logo-container > img {
-    border: 1px solid lightgrey;
+    border: 1px solid #eeeeee;
     margin-bottom: -80px;
 }
 
@@ -49,8 +53,8 @@ html .row-small {
 }
 
 .menu-active {
-    color: blue;
-    border-bottom: 2px solid blue;
+    color: #4bb2e7;
+    border-bottom: 2px solid #4bb2e7;
 }
 
 .small-menu-icon {
@@ -74,13 +78,13 @@ html .row-small {
 
 /* Content */
 .content-block-top {
-    background-color: lightgrey;
+    background-color: #eeeeee;
     padding: 60px 45px 100px 45px;
     margin-bottom: -100px;
 }
 
 .content-block-bottom, .footer-block {
-    background-color: lightgrey;
+    background-color: #eeeeee;
     padding: 60px 45px 100px 45px;
 }
 
@@ -95,11 +99,11 @@ html .row-small {
 }
 
 .see-more-button {
-    background-color: blue;
+    background-color: #4bb2e7;
     color: white;
-    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 0px 0px rgba(170,170,170,0.75);
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(170,170,170,0.75);
+    -moz-box-shadow: 2px 2px 0px 0px rgba(170,170,170,0.75);
 }
 
 /* Afbeeldingen */
@@ -135,7 +139,7 @@ html .padding-img {
 /* Footer */
 
 .footer-block {
-    background-color: lightgrey;
+    background-color: #eeeeee;
     padding: 45px 45px 90px 45px;
 }
 
@@ -152,7 +156,7 @@ html .padding-img {
     margin: 15px;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) and (max-width: 991px) {
     
     .footer-block {
         padding: 45px 45px 215px 45px;
@@ -163,7 +167,7 @@ html .padding-img {
     }
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     
     .footer-block {
         padding: 45px 45px 250px 45px;
@@ -171,6 +175,7 @@ html .padding-img {
     
     .footer-menu-column {
         margin: 50px;
+        float: left;
     }
     
 }

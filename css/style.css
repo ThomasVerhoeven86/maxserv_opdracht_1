@@ -159,6 +159,10 @@ html .padding-img {
     padding: 5px 10px;
 }
 
+.footer-links span {
+    margin-right: 90px;
+}
+
 .footer-menu-column {
     margin: 15px;
 }

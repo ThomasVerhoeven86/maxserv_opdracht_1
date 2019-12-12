@@ -16,6 +16,10 @@ html a:link, html a:visited, html a:hover, html a:active {
   text-decoration: none;
 }
 
+html .red-link {
+    color: red;
+}
+
 /* Taalinstellingen */
 .lang-item {
     float: right;
